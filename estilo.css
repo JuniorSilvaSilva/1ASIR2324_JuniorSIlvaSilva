@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	 background-color: #E6FAFC;
+}
+
+h1 {
+	text-align: center; font-size: 50px;
+}
+
+h2 {
+	margin-top: 5px;
+	margin: 8px;
+}
+
+iframe {
+	margin: 0 auto;
+}
+
+.ini {
+	text-align: right;
+	text-underline-position: none;
+	font-size: 10px;
+}
+
+img {
+	border: #515B3A 3px groove;
+}
+
+table {
+	border-color: #515B3A;
+	width: 100%;
+	border-radius: 8px;
+}
+table td {
+	border: #353D2F 2px inset;
+	height: 2rem;
+	width: 2rem;
+}
+
+table td:hover {
+	font-size: 1.2rem;
+}
+
+
+#sprites ul{
+	display: block;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	margin:0 auto;
+	background-color: orange;
+	max-height: 36px;
+}
+
+#sprites ul li {
+	display: inline-block;
+}
+
+#sprites ul li a{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(img/sprite.png);
+	float: left;
+	background-color: #353D2F;
+	margin: 4px;
+	border: 2px solid #515B3A;
+	
+}
+
+#sprites ul li a:hover{
+	background: url(img/sprite.png);
+	background-color: #353D2F;
+	border: 2px solid black;
+	transform:rotate(200deg);
+	transform: scale(1.25);
+	border-radius: 50px;
+}
+
+#sprites ul li a.Facebook{
+	background-position: 0px 0px;
+}
+
+#sprites ul li a.Mail{
+	background-position: -96px 0px;
+
+}
+
+#sprites ul li a.RSS{
+	background-position: -72px 0px;
+
+}
